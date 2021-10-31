@@ -1,0 +1,43 @@
+
+.container {
+    display: block;
+    width: 15%;
+    border: solid 1px black;
+    padding: 5px;
+    background-color: lightgray;
+}
+
+.result-panel {
+    display: flex;
+    background-color: white;
+    border: solid 1px black;
+    justify-content: flex-end;
+    padding: 10px;
+    font-size: 24px;
+    margin: 10px;
+}
+
+.control-panel {
+    display: flex;
+    margin: 10px;
+}
+
+.control-column button {
+    background-color: gray;
+    margin: 2px;
+    font-size: 24px;
+}
+
+.control-column input {
+    background-color: white;
+    margin: 2px;
+    font-size: 18px;
+}
+
+.control-column {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 50%;
+}
+

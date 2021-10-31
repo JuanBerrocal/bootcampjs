@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>Basic Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="result-panel">
+            <spam id="result-spam"></spam>
+        </div>
+        <div class="control-panel">
+            <div class="control-column">
+                <input id="operand1">
+                <input id="operand2">
+            </div>
+            <div class="control-column">
+                <button type="button" id="plus-button" onclick="update('+')">+</button>
+                <button type="button" id="minus-button" onclick="update('-')">-</button>
+                <button type="button" id="mul-button" onclick="update('*')">*</button>
+                <button type="button" id="div-button" onclick="update('/')">/</button>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
