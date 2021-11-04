@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>Reservas de hoteles.</title>
+</head>
+<body>
+    <div class="container">
+        <div class="booking-header">
+            Reserva de habitación
+        </div>
+        <hr>
+        <div class="booking-field">
+            <div class="booking-label">
+                <label>Tipo de habitación: </label>
+            </div>
+            <select name="room-type" id="room-type-select">
+                <option value="standard">Standard</option>
+                <option value="junior-suite">Junior Suite</option>
+                <option value="suite">Suite</option>
+            </select>
+        </div>
+        <div class="booking-field">
+            <div class="booking-label">
+                <label>Número de personas: </label>
+            </div>
+            <select name="room-occupation" id="room-occupation-select">
+                <option value="single">Individual</option>
+                <option value="double">Doble</option>
+                <option value="triple">Triple</option>
+            </select>
+        </div>
+        <div class="booking-field">
+            <div class="booking-label">
+                <label>Número de noches: </label>
+            </div>
+            <input id="total-nights" value="0">
+        </div>
+        <div class="booking-field">
+            <div class="booking-label">
+                <label>Noches de parking: </label>
+            </div>
+            <input id="parking-nights" value="0">
+        </div>
+        <div class="booking-field">
+            <div class="booking-label">
+                <label>Reservar SPA: </label>
+            </div>
+            <input type="checkbox" id="spa-checkbox" value="spa">
+        </div>
+        <hr>
+        <div class="amount-field">
+            <label>Importe total: </label>
+            <spam id="amount-spam">0 €</spam>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
