@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="site.css">
+    <title>JS Bootcamp - Module 06 - Shopping cart</title>
+</head>
+<body>
+    <main>
+        <div id="cart" class="cartContainer">
+            <div id="header" class="cartHeader">
+                <h1>Carrito de la compra</h1>
+            </div>
+            <div id="list" class="listContainer"></div>
+            <div id="buttonContainer" class="cartButtonContainer">
+                <button id= "button" class="cartButton disabled" onclick="computeInvoice()" disabled="true">Calcular</button>
+            </div>
+            <div id="invoice" class="cartInvoice">
+                <div class="invoiceLine"><spam id="subtotal">Subtotal: 0 €</spam></div>
+                <div class="invoiceLine"><spam id="tax">IVA: 0 €</spam></div>
+                <div class="invoiceLine"><spam id="total">TOTAL: 0 €</spam></div>
+            </div>
+        </div>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
